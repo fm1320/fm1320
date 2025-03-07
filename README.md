@@ -3,6 +3,9 @@
 I'm Filip, a Machine Learning Engineer passionate about technology, AI, philosophy, art. Part-time fashion model.
 
 ### 🔭 Currently working on
+- [Superlinked](https://github.com/superlinked/superlinked) - Solving recommendations and creating better vector embeddings
+
+### Some past work
 - [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow) - An LLM application library that helps developers build and optimize LLM task pipelines
 - Building ML systems that solve real-world problems
 - Writing about ML and LLMs - check out my [article about LLM frameworks](https://blog.dataengineer.io/p/top-3-llm-frameworks-that-you-should)
