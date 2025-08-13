@@ -5,6 +5,10 @@ I'm Filip, a Machine Learning Engineer passionate about technology, AI, philosop
 ### 🔭 Currently working on
 - [Superlinked](https://github.com/superlinked/superlinked) - Solving recommendations and creating better vector embeddings
 
+### 🛠️ Recent Projects
+- [Custom Superlinked retriever in Langchain](https://github.com/superlinked/langchain-superlinked) - A PyPi package that implements a custom superlinked mixture-of-encoders retriever in langchain
+- [Spotify Song Recommendation Tool](https://youtu.be/WIBtZa7mcCs?si=PVw64RDT6GVIkmps) - Uses transformer models and vector search to recommend songs based on moods
+
 ### Keynote talks at conferences & articles
 - [Mixture of Encoders @Berlin Buzzwords 2025](https://youtu.be/IHtDcEaCJeg?si=HcQ06KciyZcz4D_p)
 - [Beyond Multimodal Vectors: Hotel Search With Superlinked and Qdrant](https://qdrant.tech/blog/superlinked-multimodal-search/)
@@ -22,6 +26,3 @@ I'm Filip, a Machine Learning Engineer passionate about technology, AI, philosop
 ### 📫 How to reach me
 - [LinkedIn](https://www.linkedin.com/in/filipmakraduli/)
 - [GitHub](https://github.com/fm1320)
-
-### 🛠️ Recent Projects
-- [Spotify Song Recommendation Tool](https://youtu.be/WIBtZa7mcCs?si=PVw64RDT6GVIkmps) - Uses transformer models and vector search to recommend songs based on moods
