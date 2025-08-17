@@ -6,7 +6,8 @@ I'm Filip, a Machine Learning Engineer passionate about technology, AI, philosop
 - [Superlinked](https://github.com/superlinked/superlinked) - Solving recommendations and creating better vector embeddings
 
 ### 🛠️ Recent Projects
-- [Custom Superlinked retriever in Langchain](https://github.com/superlinked/langchain-superlinked) - A PyPi package that implements a custom superlinked mixture-of-encoders retriever in langchain
+- [Custom Superlinked retriever in Langchain](https://github.com/superlinked/langchain-superlinked) - A PyPi package that implements a custom superlinked mixture-of-encoders retriever in Langchain
+- [Llamahub: Superlinked x Llamaindex](https://llamahub.ai/l/retrievers/llama-index-retrievers-superlinked?from=) - A custom Llamaindex retriever that uses Superlinked
 - [Spotify Song Recommendation Tool](https://youtu.be/WIBtZa7mcCs?si=PVw64RDT6GVIkmps) - Uses transformer models and vector search to recommend songs based on moods
 
 ### Keynote talks at conferences & articles
