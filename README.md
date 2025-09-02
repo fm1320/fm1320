@@ -3,7 +3,7 @@
 I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, AI, philosophy, art. Part-time fashion model.
 
 ### 🔭 Currently working on
-- [Superlinked](https://github.com/superlinked/superlinked) - Solving recommendations and creating better vector embeddings
+- [Superlinked](https://github.com/superlinked/superlinked) - Solving accurate retrieval, AI recommendations, and creating better vector embeddings
 
 ### 🛠️ Recent Projects
 - [Custom Superlinked retriever in Langchain](https://github.com/superlinked/langchain-superlinked) - A PyPi package that implements a custom superlinked mixture-of-encoders retriever in Langchain
