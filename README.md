@@ -10,10 +10,10 @@ I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, A
 - [Llamahub: Superlinked x Llamaindex](https://llamahub.ai/l/retrievers/llama-index-retrievers-superlinked?from=) - A custom Llamaindex retriever that uses Superlinked
 
 ### Keynote talks at conferences & articles
-- [Embeddings theory, matrix maths, and research by Google DeepMind](https://m.youtube.com/watch?v=RPgz_nQs-3w)
+- Embeddings theory, matrix maths, and research by Google DeepMind @Haystack EU 2025 [video](https://m.youtube.com/watch?v=RPgz_nQs-3w)
 - A Practical Guide on Choosing a Vector Database [article](https://superlinked.com/vectorhub/articles/choosing-vdb)
-- [Mixture of Encoders @Berlin Buzzwords 2025](https://youtu.be/IHtDcEaCJeg?si=HcQ06KciyZcz4D_p)
-- [Beyond Multimodal Vectors: Hotel Search With Superlinked and Qdrant](https://qdrant.tech/blog/superlinked-multimodal-search/)
+- Mixture of Encoders @Berlin Buzzwords 2025 [video] (https://youtu.be/IHtDcEaCJeg?si=HcQ06KciyZcz4D_p)
+- Beyond Multimodal Vectors: Hotel Search With Superlinked and Qdrant [video](https://qdrant.tech/blog/superlinked-multimodal-search/)
 - Top 3 LLM frameworks you should know [article](https://blog.dataengineer.io/p/top-3-llm-frameworks-that-you-should)
 
 ### Some past work
