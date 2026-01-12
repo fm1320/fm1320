@@ -26,4 +26,5 @@ I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, A
 
 ### 📫 How to reach me
 - [LinkedIn](https://www.linkedin.com/in/filipmakraduli/)
-- [GitHub](https://github.com/fm1320)
+- [GitHub](https://github.com/fm1320) 
+- [Substack](https://substack.com/@makraduli?)
