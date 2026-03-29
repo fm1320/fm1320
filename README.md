@@ -9,6 +9,7 @@ I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, A
 ### 🛠️ Recent Projects
 - [Custom Superlinked retriever in Langchain](https://github.com/superlinked/langchain-superlinked) - A PyPi package that implements a custom superlinked mixture-of-encoders retriever in Langchain
 - [Llamahub: Superlinked x Llamaindex](https://llamahub.ai/l/retrievers/llama-index-retrievers-superlinked?from=) - A custom Llamaindex retriever that uses Superlinked
+- [FlashNorm GPU Benchmark](https://github.com/OpenMachine-ai/transformer-tricks/blob/main/notebooks/flashNorm_gpu_benchmark.ipynb) - Measures the speedup from deferred normalization (GEMM || inv_rms overlap) on an NVIDIA T4 GPU using CUDA streams and a custom Triton kernel achieving +12-14% speedup at Llama-7B scale
 
 ### Keynote talks at conferences & articles
 - What actually makes embedding inference fast? [article](https://substack.com/home/post/p-185290965)
