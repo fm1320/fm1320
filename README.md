@@ -4,7 +4,7 @@ I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, A
 
 ### 🔭 Currently working on
 - [Superlinked](https://github.com/superlinked/sie) - Building Small model inference for AI search, retrieval, and agents.
-- [Applied AI research](https://github.com/OpenMachine-ai/transformer-tricks) - Contributing to a research [paper](https://github.com/OpenMachine-ai/transformer-tricks/blob/25978a494a050d63d47d8671a3f21061ee282f6a/doc/flashNorm.pdf) for a technique that improves the transformer architecture using FlashNorm by removing the weights from RMSNorm and merging them with the next linear layer
+- [Applied AI research](https://github.com/OpenMachine-ai/transformer-tricks) - Co-authoring a research [paper](https://arxiv.org/abs/2407.09577) for a technique that improves the transformer architecture using FlashNorm by removing the weights from RMSNorm and merging them with the next linear layer
 
 ### 🛠️ Recent Projects
 - [Custom Superlinked retriever in Langchain](https://github.com/superlinked/langchain-superlinked) - A PyPi package that implements a custom superlinked mixture-of-encoders retriever in Langchain
