@@ -15,8 +15,7 @@ I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, A
 - A guide to Small Model Inference AI Engineer Europe 2026 [video talk](https://youtu.be/qdh_x-uRs9g?si=xGTQyGslViN3kKNY)
 - What actually makes embedding inference fast? [article](https://substack.com/home/post/p-185290965)
 - Embeddings theory, matrix maths, and research by Google DeepMind @Haystack EU 2025 [video](https://m.youtube.com/watch?v=RPgz_nQs-3w)
-- A Practical Guide on Choosing a Vector Database [article](https://superlinked.com/vectorhub/articles/choosing-vdb)
-- Mixture of Encoders @Berlin Buzzwords 2025 [video](https://youtu.be/IHtDcEaCJeg?si=HcQ06KciyZcz4D_p)
+- Modern Search and Retreival Infrastructure for Agents @Berlin Buzzwords 2026 [video](https://youtu.be/f76pKDzPRFQ?si=OiVhPgJOC-sD8MXB)
 
 ### Some past work
 - [Spotify Song Recommendation Tool](https://youtu.be/WIBtZa7mcCs?si=PVw64RDT6GVIkmps) - Uses transformer models and vector search to recommend songs based on moods
