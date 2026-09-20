@@ -12,6 +12,7 @@ I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, A
 - [FlashNorm GPU Benchmark](https://github.com/OpenMachine-ai/transformer-tricks/blob/main/notebooks/flashNorm_gpu_benchmark.ipynb) - Measures the speedup from deferred normalization (GEMM || inv_rms overlap) on an NVIDIA T4 GPU using CUDA streams and a custom Triton kernel achieving +12-14% speedup at Llama-7B scale
 
 ### Keynote talks at conferences & articles
+- Weight Folding and CUDA Streams AIE World's Fair 2026 [video](https://youtu.be/c1hGBoWw20A?si=kN619MX-zfFnmuua)
 - A guide to Small Model Inference AI Engineer Europe 2026 [video talk](https://youtu.be/qdh_x-uRs9g?si=xGTQyGslViN3kKNY)
 - What actually makes embedding inference fast? [article](https://substack.com/home/post/p-185290965)
 - Embeddings theory, matrix maths, and research by Google DeepMind @Haystack EU 2025 [video](https://m.youtube.com/watch?v=RPgz_nQs-3w)
