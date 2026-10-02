@@ -1,32 +1,30 @@
-## Hi there 👋 
+## Hi, I'm Filip 👋
 
-I'm Filip, a Machine Learning Engineer and DevRel passionate about technology, AI, philosophy, art. Part-time fashion model.
+Machine learning engineer and DevRel working on model inference: making models fast and helping developers use them. Also into philosophy and art, part-time fashion model.
 
-### 🔭 Currently working on
-- [Superlinked](https://github.com/superlinked/sie) - Building Small model inference for AI search, retrieval, and agents.
-- [Applied AI research](https://github.com/OpenMachine-ai/transformer-tricks) - Co-authoring a research [paper](https://arxiv.org/abs/2407.09577) for a technique that improves the transformer architecture using FlashNorm by removing the weights from RMSNorm and merging them with the next linear layer
+### Recent work
+At [Superlinked](https://github.com/superlinked/sie), as a founding member of technical staff, some public contributions:
 
-### 🛠️ Recent Projects
-- [Custom Superlinked retriever in Langchain](https://github.com/superlinked/langchain-superlinked) - A PyPi package that implements a custom superlinked mixture-of-encoders retriever in Langchain
-- [Llamahub: Superlinked x Llamaindex](https://llamahub.ai/l/retrievers/llama-index-retrievers-superlinked?from=) - A custom Llamaindex retriever that uses Superlinked
-- [FlashNorm GPU Benchmark](https://github.com/OpenMachine-ai/transformer-tricks/blob/main/notebooks/flashNorm_gpu_benchmark.ipynb) - Measures the speedup from deferred normalization (GEMM || inv_rms overlap) on an NVIDIA T4 GPU using CUDA streams and a custom Triton kernel achieving +12-14% speedup at Llama-7B scale
+- **[TopK-Embed-V1 in SIE](https://github.com/superlinked/sie/pull/417)** - Shipped two multi-vector embedding models (0.8B and 2B, Qwen3.5 with linear attention) in [SIE v0.9.0](https://github.com/superlinked/sie/releases/tag/v0.9.0), Superlinked's open-source inference engine. Padding-free batching, fused GPU kernels and CUDA graphs reached 1.5 to 1.6× the vendor's throughput and cut single-query latency from 81 ms to 6 ms, with identical top results. Also fixed a [cluster transport bug](https://github.com/superlinked/sie/pull/416) that made full batches of wide multi-vector outputs fail.
+- **[SIE](https://github.com/superlinked/sie)** - Small-model inference for search, retrieval and agents: [16 merged pull requests](https://github.com/superlinked/sie/pulls?q=is%3Apr+author%3Afm1320+is%3Amerged), and helped more than double its GitHub stars in five months.
+- **[FlashNorm](https://arxiv.org/abs/2407.09577)** - Co-author of _FlashNorm: Fast Normalization for Transformers_, which folds the RMSNorm weights into the next linear layer. My [GPU benchmark](https://github.com/OpenMachine-ai/transformer-tricks/blob/main/notebooks/flashNorm_gpu_benchmark.ipynb) overlaps the normalization with the matrix multiply using CUDA streams and a custom Triton kernel: +12 to 14% at Llama-7B scale on an NVIDIA T4.
 
-### Keynote talks at conferences & articles
-- Weight Folding and CUDA Streams AIE World's Fair 2026 [video](https://youtu.be/c1hGBoWw20A?si=kN619MX-zfFnmuua)
-- A guide to Small Model Inference AI Engineer Europe 2026 [video talk](https://youtu.be/qdh_x-uRs9g?si=xGTQyGslViN3kKNY)
-- What actually makes embedding inference fast? [article](https://substack.com/home/post/p-185290965)
-- Embeddings theory, matrix maths, and research by Google DeepMind @Haystack EU 2025 [video](https://m.youtube.com/watch?v=RPgz_nQs-3w)
-- Modern Search and Retreival Infrastructure for Agents @Berlin Buzzwords 2026 [video](https://youtu.be/f76pKDzPRFQ?si=OiVhPgJOC-sD8MXB)
+### Talks and writing
+- **Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards** - AI Engineer World's Fair 2026 · [video](https://youtu.be/c1hGBoWw20A)
+- **The Small Model Infrastructure Nobody Built (So We Did)** - AI Engineer Europe 2026 · [video](https://youtu.be/qdh_x-uRs9g)
+- **One GPU, Four Retrieval Modes: Multi-Model Search Serving** - Berlin Buzzwords 2026 · [video](https://youtu.be/f76pKDzPRFQ)
+- **From BM25 to Mixture-of-Encoders** - Haystack EU 2025 · [video](https://www.youtube.com/watch?v=RPgz_nQs-3w)
+- **What Actually Makes Embedding Model Inference Fast?** - [article](https://filipmakraduli.substack.com/p/what-actually-makes-embedding-model)
 
-### Some past work
-- [Spotify Song Recommendation Tool](https://youtu.be/WIBtZa7mcCs?si=PVw64RDT6GVIkmps) - Uses transformer models and vector search to recommend songs based on moods
-- [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow) - An LLM application library that helps developers build and optimize LLM task pipelines
-- Multiple Data Science and ML roles in retail, fintech, and biomedical AI
+### Earlier open source
+- **[langchain-superlinked](https://github.com/superlinked/langchain-superlinked)** - PyPI package with a custom Superlinked mixture-of-encoders retriever for LangChain
+- **[Superlinked x LlamaIndex](https://llamahub.ai/l/retrievers/llama-index-retrievers-superlinked)** - A custom LlamaIndex retriever that uses Superlinked
+- **[AdalFlow](https://github.com/SylphAI-Inc/AdalFlow)** - Contributor to the library for building and optimizing LLM task pipelines: multimodal OpenAI support, the integrations page, and RAG and text-splitter tutorials
 
-### 🌱 Learning & Interested in
-- Large Language Models (LLMs), Machine Learning Systems, Vector Search & Embeddings, Tech startups
+### Before that
+- **[Mood-based song recommender](https://youtu.be/WIBtZa7mcCs)** - Transformer models and vector search to recommend Spotify songs by mood (Qdrant Vector Space Talks)
+- Data science and ML roles in retail, fintech and biomedical AI
 
-### 📫 How to reach me
-- [LinkedIn](https://www.linkedin.com/in/filipmakraduli/)
-- [GitHub](https://github.com/fm1320) 
-- [Substack](https://substack.com/@makraduli?)
+
+### Reach me
+[LinkedIn](https://www.linkedin.com/in/filipmakraduli/), [X-Twitter](https://x.com/f_makraduli), [Substack](https://filipmakraduli.substack.com)
