@@ -3,11 +3,14 @@
 Machine learning engineer and DevRel working on model inference: making models fast and helping developers use them. Also into philosophy and art, part-time fashion model.
 
 ### Recent work
-At [Superlinked](https://github.com/superlinked/sie), as a founding member of technical staff, some public contributions:
+At [Superlinked](https://github.com/superlinked/sie), as a founding member of technical staff, here are some public contributions:
 
-- **[TopK-Embed-V1 in SIE](https://github.com/superlinked/sie/pull/417)** - Shipped two multi-vector embedding models (0.8B and 2B, Qwen3.5 with linear attention) in [SIE v0.9.0](https://github.com/superlinked/sie/releases/tag/v0.9.0), Superlinked's open-source inference engine. Padding-free batching, fused GPU kernels and CUDA graphs reached 1.5 to 1.6× the vendor's throughput and cut single-query latency from 81 ms to 6 ms, with identical top results. Also fixed a [cluster transport bug](https://github.com/superlinked/sie/pull/416) that made full batches of wide multi-vector outputs fail.
-- **[SIE](https://github.com/superlinked/sie)** - Small-model inference for search, retrieval and agents: [16 merged pull requests](https://github.com/superlinked/sie/pulls?q=is%3Apr+author%3Afm1320+is%3Amerged), and helped more than double its GitHub stars in five months.
-- **[FlashNorm](https://arxiv.org/abs/2407.09577)** - Co-author of _FlashNorm: Fast Normalization for Transformers_, which folds the RMSNorm weights into the next linear layer. My [GPU benchmark](https://github.com/OpenMachine-ai/transformer-tricks/blob/main/notebooks/flashNorm_gpu_benchmark.ipynb) overlaps the normalization with the matrix multiply using CUDA streams and a custom Triton kernel: +12 to 14% at Llama-7B scale on an NVIDIA T4.
+- **[TopK-Embed-V1 in SIE](https://github.com/superlinked/sie/pull/417)** - I added two multi-vector embedding models (0.8B and 2B) to [SIE v0.9.0](https://github.com/superlinked/sie/releases/tag/v0.9.0), Superlinked's open-source inference engine. Fused GPU kernels, CUDA graphs and padding-free batches make them 1.5 to 1.6× faster than the vendor's pipeline. One query takes 6 ms instead of 81 ms. The top search results stay the same. I also [fixed a bug](https://github.com/superlinked/sie/pull/416) that made full batches of large outputs fail in the cluster.
+- **[SIE](https://github.com/superlinked/sie)** - SIE runs small models for agents. I contributed to the project and also led developer growth and adoption and more than doubled its GitHub stars in five months.
+
+I co-authored a paper on [FlashNorm](https://arxiv.org/abs/2407.09577).FlashNorm merges the RMSNorm weights into the next linear layer, so transformers run faster.
+- Open source contributions in [transformer-tricks](https://github.com/OpenMachine-ai/transformer-tricks), I merged [10+ pull requests](https://github.com/OpenMachine-ai/transformer-tricks/pulls?q=is%3Apr+author%3Afm1320+is%3Amerged). They add [GPU benchmarks](https://github.com/OpenMachine-ai/transformer-tricks/blob/main/notebooks/flashNorm_gpu_benchmark.ipynb), Gemma 4 support, and a guide to use FlashNorm with your own model. With FlashNorm, Llama-3.2-1B runs 12.77% faster in Hugging Face Transformers.
+
 
 ### Talks and writing
 - **Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards** - AI Engineer World's Fair 2026 · [video](https://youtu.be/c1hGBoWw20A)
