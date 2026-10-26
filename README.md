@@ -1,5 +1,7 @@
 ## Hi, I'm Filip 👋
 
+Developer Relations Engineer at [Modal labs](https://modal.com/)
+
 Machine learning engineer and DevRel working on model inference: making models fast and helping developers use them. Also into philosophy and art, part-time fashion model.
 
 ### Recent work
